@@ -1,0 +1,5 @@
+^Control !Alt #Win +Shift (You can combine them)
+Paste1=^!1
+Paste2=^!2
+Paste3=^!3
+OpenGUI^!4
