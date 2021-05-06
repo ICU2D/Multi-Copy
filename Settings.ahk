@@ -44,6 +44,7 @@ IfMsgBox Yes
     If(Hotkey != ""){
         IniWrite, %Hotkey%, settings.ini, Hotkeys, OpenGUI
         SaveMessage = %SaveMessage%`nGUI Hotkey: %Hotkey%
+        MsgBox, Restart to change hotkey
     }
     If(SaveMessage = "Saved")
         MsgBox Nothing Saved.
